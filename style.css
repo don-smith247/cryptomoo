@@ -8,12 +8,10 @@ body{
     background: linear-gradient( rgb(30, 2, 185), blue);
     color: white;
 }
-.typing-text{
-    font-size: 34px;
-    border-right: 2px solid #000;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing 1s steps(20, end), blink-caret .5s step-end infinite;
+.under-sec h2{
+    font-size: 40px;
+     width: 350px;
+     text-transform: capitalize;
 }
 
 @keyframes typing {
@@ -485,5 +483,10 @@ svg{
     }
     .title{
         font-size: 30px;
+    }
+    .under-sec h2{
+        font-size: 30px;
+         width: 330px;
+         text-transform: capitalize;
     }
 }

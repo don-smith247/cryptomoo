@@ -8,19 +8,6 @@ function closeMenu(){
     document.getElementById("menu").style.opacity='0';
 }
 
-const text = "Transformative";
-
-  let index = 0;
-  function type() {
-    document.querySelector(".typing-text").textContent = text.slice(0, index);
-    index++;
-    if (index > text.length) {
-      index = 0;
-    }
-  }
-
-setInterval(type, 90); 
-
 const faqs = document.querySelectorAll(".faq");
 
 faqs.forEach(faq =>{
